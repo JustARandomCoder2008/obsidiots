@@ -44,7 +44,7 @@ services:
         https://hangarcdn.papermc.io/plugins/Gecolay/GSit/versions/3.0.1/PAPER/GSit-3.0.1.jar
       
       # Resources
-      RESOURCE_PACK: "https://drive.google.com/uc?export=download&id=15hHJAVnT96Km3H3p1rxbuMP_j3rrEeNs"
+      RESOURCE_PACK: "https://drive.google.com/uc?export=download&id=1KZeVSZdL0Yhx2vtlIH8U4c1w0MhLWLzi"
       RESOURCE_PACK_REQUIRED: "true"
 
       # Welcome messages
@@ -69,5 +69,6 @@ services:
     restart: unless-stopped
 volumes:
   data: {}
+
 
 
