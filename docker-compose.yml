@@ -49,7 +49,7 @@ services:
 
       # Welcome messages
       RCON_CMDS_FIRST_CONNECT: |-
-        /tellraw @a ["",{"text":"Hai ","color":"white"},{"selector":"@a","bold":true,"color":"#b00b50"},{"text":"! Thank you so much for joining, clearly this server needs more players today...","color":"white"}]
+        /tellraw @a ["",{"text":"Hai ","color":"white"},{"selector":"@a","bold":true,"color":"#b00b50"},{"text":"! Thank you so much for joining!","color":"white"}]
 
       # Admin
       OPS: |-
@@ -69,6 +69,7 @@ services:
     restart: unless-stopped
 volumes:
   data: {}
+
 
 
 
