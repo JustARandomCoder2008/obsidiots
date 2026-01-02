@@ -43,6 +43,7 @@ services:
         https://cdn.modrinth.com/data/9eGKb6K1/versions/ps3C3lpD/voicechat-bukkit-2.6.6.jar
         https://hangarcdn.papermc.io/plugins/Gecolay/GSit/versions/3.0.1/PAPER/GSit-3.0.1.jar
         https://www.patreon.com/file?h=145853143&m=580728422
+        https://cdn.modrinth.com/data/1u6JkXh5/versions/sO1YYZp4/worldedit-bukkit-7.4.0-beta-02.jar
       
       # Resources
       RESOURCE_PACK: "https://drive.google.com/uc?export=download&id=1N8kKInECcmbcuzggUYmjozgnX_pERrxh"
@@ -70,6 +71,7 @@ services:
     restart: unless-stopped
 volumes:
   data: {}
+
 
 
 
