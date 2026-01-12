@@ -47,7 +47,7 @@ services:
 
       # Datapacks
       DATAPACKS: |-
-      https://drive.google.com/uc?export=download&id=1JDvLUXQ4w4wOrD1jqpovxllvYl1nWbzs
+        https://drive.google.com/uc?export=download&id=1JDvLUXQ4w4wOrD1jqpovxllvYl1nWbzs
       
       # Resources
       RESOURCE_PACK: "https://drive.google.com/uc?export=download&id=1EQXjnDoi9TIX84DwyCeTWy0kJlDXl17M"
@@ -75,6 +75,7 @@ services:
     restart: unless-stopped
 volumes:
   data: {}
+
 
 
 
