@@ -29,7 +29,7 @@ services:
 
       # Options
       ALLOW_FLIGHT: "true" # prevents players from being kicked when lagging
-      LOG_IPS: "false"
+      LOG_IPS: "true"
       MAX_WORLD_SIZE: "1000000"
       ENFORCE_SECURE_PROFILE: "false"
 
@@ -50,7 +50,7 @@ services:
         https://drive.google.com/uc?export=download&id=1JDvLUXQ4w4wOrD1jqpovxllvYl1nWbzs
       
       # Resources
-      RESOURCE_PACK: "https://drive.google.com/uc?export=download&id=1EQXjnDoi9TIX84DwyCeTWy0kJlDXl17M"
+      RESOURCE_PACK: "https://drive.google.com/uc?export=download&id=1Mu-7bEsWpWO1c68XSYGC8Cpf82Ij8p3P"
       RESOURCE_PACK_REQUIRED: "true"
 
       # Welcome messages
@@ -75,6 +75,7 @@ services:
     restart: unless-stopped
 volumes:
   data: {}
+
 
 
 
